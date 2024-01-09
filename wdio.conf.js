@@ -113,7 +113,7 @@ exports.config = {
               blockOutStatusBar: true,
               blockOutToolBar: true,
               comparisonMethod: 'antialiasing',
-            //   misMatchTolerance: 0.01,
+              misMatchTolerance: 0.01,
             },
           ],
         // ... diğer servisler
