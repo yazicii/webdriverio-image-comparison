@@ -13,7 +13,6 @@ describe('image comp', () => {
 
 
         expect(await browser.checkElement(element, 'depositBtn',{})).toBeGreaterThanOrEqual(85);
-
     });
 
     it('search form amount input', async () => {
@@ -22,6 +21,7 @@ describe('image comp', () => {
 
 
         expect(await browser.checkElement(element, 'amountInput',{})).toBeGreaterThanOrEqual(85);
+
 
     });
 
