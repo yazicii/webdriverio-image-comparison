@@ -1,6 +1,6 @@
 {
   "name": "webdriverio-image-comparison",
-  "version": "1.0.0",
+  "version": "5.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^8.0.0"
+    "@wdio/cli": "8.26.1"
   }
 }

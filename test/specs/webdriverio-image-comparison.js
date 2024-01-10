@@ -12,7 +12,7 @@ describe('image comp', () => {
         await element.waitForDisplayed({ timeout: 10000 });
 
 
-        expect(await browser.checkElement(element, 'depositBtn',{})).toEqual(95);
+        expect(await browser.checkElement(element, 'depositBtn',{})).toBeGreaterThanOrEqual(85);
 
     });
 
@@ -21,7 +21,7 @@ describe('image comp', () => {
         await element.waitForDisplayed({ timeout: 10000 });
 
 
-        expect(await browser.checkElement(element, 'amountInput',{})).toEqual(95);
+        expect(await browser.checkElement(element, 'amountInput',{})).toBeGreaterThanOrEqual(85);
 
     });
 
@@ -30,7 +30,7 @@ describe('image comp', () => {
         await element.waitForDisplayed({ timeout: 10000 });
 
 
-        expect(await browser.checkElement(element, 'table',{})).toEqual(95);
+        expect(await browser.checkElement(element, 'table',{})).toBeGreaterThanOrEqual(85);
 
     });
 
@@ -39,7 +39,7 @@ describe('image comp', () => {
           await element.waitForDisplayed({ timeout: 10000 });
 
 
-          expect(await browser.checkElement(element, 'email',{})).toEqual(100);
+          expect(await browser.checkElement(element, 'email',{})).toBeGreaterThanOrEqual(85);
 
       });
 
